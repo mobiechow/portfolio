@@ -32,10 +32,8 @@ body {
   left: 1rem;
   width: 44px;
   height: 44px;
-  background: rgba(255, 255, 255, 0.85);
-  backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(16px);
-  border: 1px solid rgba(224, 224, 224, 0.6);
+  background: var(--accent);
+  border: none;
   cursor: pointer;
   z-index: 1002;
   border-radius: 8px;
@@ -44,14 +42,14 @@ body {
 }
 
 .hamburger:hover {
-  background: rgba(255, 255, 255, 1);
+  background: #003DCC;
 }
 
 .hamburger span {
   display: block;
   width: 24px;
   height: 2.5px;
-  background: var(--black);
+  background: white;
   margin: 5px 0;
   transition: all 0.3s ease;
 }
