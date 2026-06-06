@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700;800&family=Sora:wght@400;500;600&display=swap');
+
 :root {
   --bg: #f5f5f5;
   --white: #ffffff;
@@ -7,8 +9,6 @@
   --text2: #666666;
   --text3: #999999;
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700;800&family=Sora:wght@400;500;600&display=swap');
 
 * {
   margin: 0;
@@ -694,5 +694,14 @@ main {
   .case-images div[style*="grid-template-columns: repeat(2"],
   .case-images div[style*="grid-template-columns: repeat(auto-fit"] {
     grid-template-columns: 1fr !important;
+  }
+
+  .project-info {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .project-image::after {
+    background: rgba(0, 52, 180, 0.45);
   }
 }
