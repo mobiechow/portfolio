@@ -597,6 +597,8 @@ main {
   display: flex;
   flex-direction: column;
   gap: 0.75rem;
+  align-items: center;
+  text-align: center;
 }
 
 /* Back-to-top wrapper: disable pointer events on the container so it never
