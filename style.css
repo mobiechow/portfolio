@@ -323,6 +323,7 @@ main {
 /* Case Detail */
 .case-detail {
   max-width: 1000px;
+  margin-top: -1rem;
 }
 
 .case-header {
@@ -676,7 +677,7 @@ main {
   }
 
   .case-header {
-    padding-top: 2rem;
+    padding-top: 0;
   }
 
   .case-story > div[style*="grid-template-columns: 1fr 1fr"] {
