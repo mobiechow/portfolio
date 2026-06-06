@@ -233,16 +233,29 @@ aside nav a.active {
   padding-left: 0.75rem;
 }
 
-.social-links {
+.contact-block {
   position: absolute;
   bottom: 2rem;
   left: 2rem;
   right: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(224, 224, 224, 0.8);
+}
+
+.contact-label {
+  font-family: 'Bricolage Grotesque', sans-serif;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--accent);
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+}
+
+.social-links {
   display: flex;
   flex-direction: row;
   gap: 1.25rem;
-  padding-top: 1rem;
-  border-top: 1px solid rgba(224, 224, 224, 0.8);
   align-items: center;
 }
 
@@ -749,7 +762,7 @@ main {
     gap: 3rem;
   }
 
-  .social-links {
+  .contact-block {
     position: static;
     margin-top: 2rem;
   }
