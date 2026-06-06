@@ -593,8 +593,19 @@ main {
 .back-link {
   margin-top: 3rem;
   padding-top: 2rem;
-  padding-right: 4.5rem; /* keep "Next" link clear of fixed back-to-top button */
+  padding-right: 3.5rem; /* visual clearance from fixed back-to-top button */
   border-top: 1px solid #e0e0e0;
+}
+
+/* Back-to-top wrapper: disable pointer events on the container so it never
+   blocks clicks on content behind it; re-enable on the actual interactive elements */
+#backToTopWrapper {
+  pointer-events: none;
+}
+
+#backToTopWrapper #pageIndex,
+#backToTopWrapper #backToTop {
+  pointer-events: auto;
 }
 
 .back-link a {
