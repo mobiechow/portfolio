@@ -593,8 +593,10 @@ main {
 .back-link {
   margin-top: 3rem;
   padding-top: 2rem;
-  padding-right: 3.5rem; /* visual clearance from fixed back-to-top button */
   border-top: 1px solid #e0e0e0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
 }
 
 /* Back-to-top wrapper: disable pointer events on the container so it never
