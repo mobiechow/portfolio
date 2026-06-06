@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700;800&family=Sora:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap');
 
 :root {
   --bg: #f5f5f5;
@@ -17,7 +17,7 @@
 }
 
 body {
-  font-family: 'Sora', sans-serif;
+  font-family: 'Plus Jakarta Sans', sans-serif;
   background-color: var(--bg);
   color: var(--text);
   line-height: 1.6;
@@ -83,7 +83,7 @@ aside {
 }
 
 aside .logo {
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: 'Bricolage Grotesque', sans-serif;
   font-size: 1.5rem;
   font-weight: 800;
   color: var(--black);
@@ -118,7 +118,7 @@ aside nav a.active {
 }
 
 .projects-label {
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: 'Bricolage Grotesque', sans-serif;
   font-size: 0.75rem;
   text-transform: uppercase;
   letter-spacing: 0.1em;
@@ -192,7 +192,7 @@ main {
 }
 
 .hero h1 {
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: 'Bricolage Grotesque', sans-serif;
   font-size: 3.5rem;
   font-weight: 900;
   line-height: 1.1;
@@ -243,7 +243,7 @@ main {
 }
 
 .project-title {
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: 'Bricolage Grotesque', sans-serif;
   font-size: 1.1rem;
   font-weight: 700;
   color: var(--black);
@@ -253,7 +253,7 @@ main {
 
 .project-description {
   font-size: 0.8rem;
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: 'Bricolage Grotesque', sans-serif;
   font-weight: 600;
   color: var(--text2);
   margin-top: 0.25rem;
@@ -272,7 +272,7 @@ main {
 }
 
 .about-section h2 {
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: 'Bricolage Grotesque', sans-serif;
   font-size: 2.5rem;
   font-weight: 900;
   margin-bottom: 2rem;
@@ -292,7 +292,7 @@ main {
 }
 
 .services-label {
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: 'Bricolage Grotesque', sans-serif;
   font-size: 0.75rem;
   text-transform: uppercase;
   letter-spacing: 0.1em;
@@ -333,7 +333,7 @@ main {
 }
 
 .case-number {
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: 'Bricolage Grotesque', sans-serif;
   font-size: 0.75rem;
   text-transform: uppercase;
   letter-spacing: 0.1em;
@@ -343,7 +343,7 @@ main {
 }
 
 .case-title {
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: 'Bricolage Grotesque', sans-serif;
   font-size: 2.5rem;
   font-weight: 900;
   margin-bottom: 1rem;
@@ -389,7 +389,7 @@ main {
 }
 
 .case-story h2 {
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: 'Bricolage Grotesque', sans-serif;
   font-size: 1.5rem;
   font-weight: 700;
   margin-bottom: 1rem;
@@ -453,7 +453,7 @@ main {
   border-radius: 0;
   font-size: 0.75rem;
   font-weight: 600;
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: 'Bricolage Grotesque', sans-serif;
   letter-spacing: 0.5px;
   text-transform: uppercase;
   transition: all 0.2s ease;
@@ -477,7 +477,7 @@ main {
 
 /* Page Index */
 .index-item {
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: 'Bricolage Grotesque', sans-serif;
   font-size: 0.7rem;
   font-weight: 600;
   text-transform: uppercase;
@@ -541,7 +541,7 @@ main {
 }
 
 .get-in-touch h2 {
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: 'Bricolage Grotesque', sans-serif;
   font-size: 2.5rem;
   font-weight: 900;
   margin-bottom: 1.5rem;
@@ -592,7 +592,7 @@ main {
 .back-link a {
   color: var(--black);
   text-decoration: none;
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: 'Bricolage Grotesque', sans-serif;
   font-weight: 600;
   font-size: 0.875rem;
   text-transform: uppercase;
